@@ -1,4 +1,4 @@
-// 1.Read op1 single digit number and write the number in word
+// 1.Read a single digit number and write the number in word
 const prompt = require('prompt-sync')();
 {
     let number = prompt("Enter op1 single digit number ");
@@ -25,7 +25,7 @@ const prompt = require('prompt-sync')();
         console.log("Invalid input");
 }
 
-// 2.Read op1 Number and Display the week day
+// 2.Read a Number and Display the week day
 {
     let number = prompt("Enter op1 number from 1-7 ");
     console.log("Number is: " + number);
@@ -47,7 +47,7 @@ const prompt = require('prompt-sync')();
         console.log("Invalid input");
 }
 
-// 3.Read op1 Number 1, 10, 100, 1000, etc and display unit, ten, hundred,...
+// 3.Read a Number 1, 10, 100, 1000, etc and display unit, ten, hundred,...
 {
     let number = prompt("Enter number using 1 and 0 ");
     if(number == 1)
